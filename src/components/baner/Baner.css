@@ -1,0 +1,20 @@
+.baner{
+    background-image: url(../../../assets/Image\ \(1\).png);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 20%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.baner p{
+    color: rgb(26, 19, 19) ;
+    font-size: 16px;
+
+}
+.baner h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+}

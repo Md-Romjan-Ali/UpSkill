@@ -1,0 +1,96 @@
+.footerMainContainer h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 0;
+     word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.footerContainer{
+display: grid;
+grid-template-columns: repeat(5,1fr); 
+justify-items: center;
+padding: 50px 0;
+}
+.footerContainer nav{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    border-left: 6px solid rgb(228, 223, 223);
+    padding: 0 0 0 30px;
+}
+.footerContainer strong{
+     font-size: 40px;
+     color: #4882B9;
+     
+}
+.footerContainer nav div{
+  margin-top: 10px; 
+}
+.whatsapp{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footerIcon{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footerIcon a{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(10, 117, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footerCopy{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10px;
+    gap: 10px;
+}
+
+.footerCopy div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footerCopy div a ,h5{
+   margin: auto;
+   font-size: 16px;
+   color: rgb(138, 129, 129);
+}
+hr{
+    font-size: 5px;
+    color: rgb(168, 155, 155);
+}
+
+@media screen and (max-width: 800px) {
+    .footerContainer {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+     
+    }
+    .footerCopy{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+       
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .footerContainer {
+        grid-template-columns: repeat(1, 1fr);
+       gap: 20px;
+    }
+    .footerContainer nav{
+ border-bottom: 6px solid rgb(228, 223, 223);
+ padding: 20px 0;
+ border-left: none;
+    }
+}

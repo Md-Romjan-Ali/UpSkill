@@ -1,0 +1,40 @@
+
+.heroMainContainer{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+}
+.heroMainContainer img{
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+}
+.addiv{
+    display: flex;
+    gap: 15px;
+    background: rgb(219, 215, 215);
+    border-radius: 20px;
+    padding: 20px;
+}
+.addiv:hover{
+background: rgb(208, 243, 208);
+scale: calc(1.1);
+transition: all 0.3s;
+}
+.addiv h1{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131212;
+}
+.adheaderText{
+    font-size: 48px;
+    color: #221e1e;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:550px) {
+    .heroMainContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

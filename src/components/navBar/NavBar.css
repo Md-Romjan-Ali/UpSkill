@@ -1,0 +1,26 @@
+.btn1{
+    font-size: 16px;
+    color:black ;
+    border: 2px solid gray;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+}
+.btn2{
+    background: blue;
+    color: white;
+    text-align: center;
+}
+.login{
+    gap: 20px;
+    
+}
+
+.title{
+font-size: 45px;
+font-weight: 700;
+color: #6394C0;
+}
+.menus{
+font-size: 16px;
+font-weight: 600;
+}

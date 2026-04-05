@@ -1,0 +1,18 @@
+.freQuentlyMainContainer h1{
+font-size: 40px;
+font-weight: 800;
+color: rgb(77, 74, 74);
+text-align: center;
+margin: 50px 0;
+}
+
+.frequentlyAskMainContainer{
+max-width: 70%;
+margin: auto;
+}
+@media screen and (max-width: 800px) {
+    .frequentlyAskMainContainer {
+        max-width: 80%;
+        margin: auto;
+    }
+}
